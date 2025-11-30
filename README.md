@@ -20,7 +20,7 @@ A reliable WordPress plugin that clears transient cache strictly via WP-CLI and 
    ```bash
    wp plugin activate clears-transient-cache-plugin
    ```
-   *Upon activation, the plugin will automatically create the necessary database table for logging.*
+   _Upon activation, the plugin will automatically create the necessary database table for logging._
 
 ## Usage
 
@@ -45,6 +45,7 @@ The plugin creates a table named `wp_transient_cleaner_logs` (prefix may vary). 
 ## Uninstallation
 
 When you uninstall the plugin via the WordPress Admin dashboard, it will automatically:
+
 - Drop the custom log table.
 - Remove plugin-specific options.
 
